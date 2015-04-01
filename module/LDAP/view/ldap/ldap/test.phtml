@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Created by PhpStorm.
+ * User: Aitor
+ * Date: 2/4/15
+ * Time: 0:15
+ */
+
+?>
+
+<!-- These tests have to be in the controller  -->
+
+<h3>Get Canonical Account Name</h3>
+<?php $ldap->ldapCanonicalAccountName("ftp"); ?>
+
+<h3>LDAP Authentication</h3>
+<?php $ldap->ldapAuthentication("ftp", "qcgdYUpr0T6G9rbt"); ?>
+
+<h3>Get LDAP User</h3>
+<?php $ldap->getLdapUser("ftp"); ?>
