@@ -42,8 +42,3 @@ project and you should be ready to go! It should look something like below:
             Allow from all
         </Directory>
     </VirtualHost>
-
-License
--------
-
-[MIT license](http://desandro.mit-license.org)
